@@ -12,7 +12,7 @@ namespace thedashboard.Models
         public string Comment {get; set;}
 
         [ForeignKey("user")]
-        public int user_Id {get;set;}
+        public int user_id {get;set;}
         public User user { get; set; }
         
         [ForeignKey("post")]

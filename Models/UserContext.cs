@@ -1,10 +1,11 @@
 using System;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 // using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace thedashboard.Models
 {
-    public class UserContext : DbContext
+    public class UserContext : IdentityDbContext<User>
     {
         public DbSet<User> User { get; set; }
 
