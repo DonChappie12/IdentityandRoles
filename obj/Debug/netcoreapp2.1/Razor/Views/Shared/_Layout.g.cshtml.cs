@@ -54,7 +54,7 @@ using thedashboard.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(25, 394, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d7970afaea5846ba8e40e41e6859fcfb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "37d2b5bcfce74c7187c8ecbe67dd1660", async() => {
                 BeginContext(31, 121, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
                 EndContext();
@@ -84,7 +84,7 @@ using thedashboard.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(421, 758, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "81defb0a5e8e4ab3a2bcf0aff948adf7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7cd40af58165412f9aa46c20b604cc2e", async() => {
                 BeginContext(427, 111, true);
                 WriteLiteral("\r\n\r\n    <!-- <partial name=\"_CookieConsentPartial\" /> -->\r\n\r\n    <div class=\"container body-content\">\r\n        ");
                 EndContext();

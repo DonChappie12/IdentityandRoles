@@ -54,7 +54,7 @@ using thedashboard.Models;
             WriteLiteral("<div>\n    <h1>Login Page</h1>\n    ");
             EndContext();
             BeginContext(34, 673, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "26a9adede66a43daad5e857da6b7f75b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c0d64eb90b946f6a7ac3605bdf1a7d6", async() => {
                 BeginContext(40, 660, true);
                 WriteLiteral(@"
         <div class=""form-group"">

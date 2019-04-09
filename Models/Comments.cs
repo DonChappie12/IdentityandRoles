@@ -11,12 +11,12 @@ namespace thedashboard.Models
         public int CommentId {get; set;}
         public string Comment {get; set;}
 
-        [ForeignKey("user")]
-        public int user_id {get;set;}
-        public User user { get; set; }
+        [ForeignKey("User")]
+        public string user_id {get;set;}
+        public User User { get; set; }
         
-        [ForeignKey("post")]
+        [ForeignKey("Post")]
         public int post_id {get;set;}
-        public Posts post { get; set; }
+        public Posts Post { get; set; }
     }
 }
